@@ -21,6 +21,7 @@ let server = http.createServer(function(req, res){
       console.log("POST Request");
       console.log("name = " + params.name);
       console.log("age = " + params.age);
+      console.log(params);
     });
   }
 
